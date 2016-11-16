@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+html
+    head
+        meta(charset="utf-8")
+        script(src="js/jquery.js")
+        script(src="js/display.js")
+        link(href="css/styles.css" rel="stylesheet")
+        title - Patient Monitor -
+
+    body
+
+        table
+            tr
+                td.image#ecg(rowspan="3" colspan="3")
+                    h2 ECG
+                    div
+                        img(src="img/blank.png" width="2115" height="425")
+                td.space#heart-rate
+                    h2 Cap Refill
+                    div --
+            tr
+                td.space#sugar
+                    h2 Blood Sugar
+                    div --
+            tr
+                td.space#resp
+                    h2 Respiration
+                    div --
+            tr
+                td.space#spo2
+                    h2 SpO2
+                    div --
+                td.space#pulse
+                    h2 Pulse
+                    div --
+                td.space#nibp
+                    h2 NIBP
+                    div --
+                td.space#body-temp
+                    h2 Body Temp
+                    div --

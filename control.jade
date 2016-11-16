@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+html
+    head
+        meta(charset="utf-8")
+        script(src="js/jquery.js")
+        script(src="js/control.js")
+        link(href="css/styles.css" rel="stylesheet")
+        title - Patient Monitor Controller -
+
+    body
+
+    section#top
+        .ecg-block#ecg
+            .label ECG Image
+            ul
+                li(class="unselect" value="img/Asystole.png") Asystole
+                li(class="unselect" value="img/Atrial Fibrillation.png") Atrial Fibrillation
+                li(class="unselect" value="img/Sinus Rythm.png") Sinus Rythm
+                li(class="unselect" value="img/Ventricular Fibrillation.png") Ventricular Fibrillation
+                li(class="unselect" value="img/Ventricular tachycardia.png") Ventricular Tachycardia
+
+    section#left
+        .block#heart-rate
+            .label Cap Refill
+            input
+
+        .block#sugar
+            .label Blood Sugar
+            input
+
+        .block#resp
+            .label Respiration
+            input
+
+        .block#spo2
+            .label SpO2
+            input
+
+        .block#pulse
+            .label Pulse
+            input
+
+        .block#nibp
+            .label NIBP
+            input
+
+        .block#body-temp
+            .label Body Temp
+            input
+
+    section#info
+        a(href="display.html" target="_blank") open display panel
+        a(href="http://itaniknight.github.io/patient-monitor/control.html" target="_blank") latest version
+        a(href="https://github.com/itaniknight/itaniknight.github.io/tree/master/patient-monitor") github

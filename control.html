@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/control.js"></script>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <title>- Patient Monitor Controller -</title>
+  </head>
+  <body></body>
+  <section id="top">
+    <div id="ecg" class="ecg-block">
+      <div class="label">ECG Image</div>
+      <ul>
+        <li value="img/Asystole.png" class="unselect">Asystole</li>
+        <li value="img/Atrial Fibrillation.png" class="unselect">Atrial Fibrillation</li>
+        <li value="img/Sinus Rythm.png" class="unselect">Sinus Rythm</li>
+        <li value="img/Ventricular Fibrillation.png" class="unselect">Ventricular Fibrillation</li>
+        <li value="img/Ventricular tachycardia.png" class="unselect">Ventricular Tachycardia</li>
+      </ul>
+    </div>
+  </section>
+  <section id="left">
+    <div id="heart-rate" class="block">
+      <div class="label">Cap Refill</div>
+      <input/>
+    </div>
+    <div id="sugar" class="block">
+      <div class="label">Blood Sugar</div>
+      <input/>
+    </div>
+    <div id="resp" class="block">
+      <div class="label">Respiration</div>
+      <input/>
+    </div>
+    <div id="spo2" class="block">
+      <div class="label">SpO2</div>
+      <input/>
+    </div>
+    <div id="pulse" class="block">
+      <div class="label">Pulse</div>
+      <input/>
+    </div>
+    <div id="nibp" class="block">
+      <div class="label">NIBP</div>
+      <input/>
+    </div>
+    <div id="body-temp" class="block">
+      <div class="label">Body Temp</div>
+      <input/>
+    </div>
+  </section>
+  <section id="info"><a href="display.html" target="_blank">open display panel</a><a href="http://itaniknight.github.io/patient-monitor/control.html" target="_blank">latest version</a><a href="https://github.com/itaniknight/itaniknight.github.io/tree/master/patient-monitor">github</a></section>
+</html>
